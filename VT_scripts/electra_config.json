@@ -1,5 +1,6 @@
 {
    "pretrain_tfrecords" : "../output/pretrain_data.tfrecord*",
-   "vocab_file" : "../data_small/wordpiece_vocab.txt"
+   "vocab_file" : "../data_small/wordpiece_vocab.txt",
+   "vocab_size" : 8000
 
 }
