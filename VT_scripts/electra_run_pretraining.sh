@@ -1,4 +1,6 @@
 #!/bin/bash
+source ~/.bashrc
+conda activate nmt-gpu
 
 python3 ../electra/run_pretraining.py \
 --data-dir ../data_small \
