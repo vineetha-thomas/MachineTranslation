@@ -21,13 +21,13 @@ Folder Structure:
 
 5. VT_scripts
 This folder conatins the scripts to run the workflow. The list of scripts are:
-  a) tokenize.py - This invokes the huggingface tokenizer library to generate the wordpiece vocab. the script needs as input the path to the corpus, output path and the voca size.
-  b) gen_wordpiece_vocab.sh - This invokes the tokenize.py script with the right arguments to generate the vocab at the path data_small/wordpiece_vocab.txt.
-  c) electra_build_dataset.sh - It invokes the build_pretraining_dataset.py script from the electra library with the required parameters.
-  d) electra_run_pretraining.sh - It invokes the run_pretraining.py script from the electra library with the required parameters.
+  1. tokenize.py - This invokes the huggingface tokenizer library to generate the wordpiece vocab. the script needs as input the path to the corpus, output path and the voca size.
+  2. gen_wordpiece_vocab.sh - This invokes the tokenize.py script with the right arguments to generate the vocab at the path data_small/wordpiece_vocab.txt.
+  3. electra_build_dataset.sh - It invokes the build_pretraining_dataset.py script from the electra library with the required parameters.
+  4. electra_run_pretraining.sh - It invokes the run_pretraining.py script from the electra library with the required parameters.
   Note: Note that the *.sh scripts sets up teh conda environmnet in them. If you are using a differnt environment name, remember to change it in the script.
-  e) electra_config.json - The important configurations for the electra training is added here.
-  f) *.cmd scripts are scripts for running the scripts on condor framework (on patas machine).
+  5. electra_config.json - The important configurations for the electra training is added here.
+  6. *.cmd scripts are scripts for running the scripts on condor framework (on patas machine).
 
   Environment Set-up:
   Set up conda environment with the following installed:
