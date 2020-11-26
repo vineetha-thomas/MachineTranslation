@@ -5,4 +5,4 @@
 #--output_filename=../data_small/wordpiece_vocab.txt \
 #--logtostderr
 
-python tokenize.py --corpus_path ../data_small/corpus_dir --output_path ../data_small --vocab_size 8000
+python tokenize.py --corpus_path ../data_small/corpus_dir/corpus_sampled --output_path ../data_small --vocab_size 8000
